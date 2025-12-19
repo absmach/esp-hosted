@@ -1,10 +1,4 @@
 #!/bin/bash
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Copyright (C) 2015-2021 Espressif Systems (Shanghai) PTE LTD
-#
-# This is modified version of rpi_init.sh for BeagleV-Fire (RISC-V)
-#
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
