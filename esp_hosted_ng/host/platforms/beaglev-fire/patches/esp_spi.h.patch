@@ -1,0 +1,18 @@
+diff --git a/esp_hosted_ng/host/linux/host_driver/esp32/spi/esp_spi.h b/esp_hosted_ng/host/linux/host_driver/esp32/spi/esp_spi.h
+index abcdef1..1234567 100644
+--- a/esp_hosted_ng/host/linux/host_driver/esp32/spi/esp_spi.h
++++ b/esp_hosted_ng/host/linux/host_driver/esp32/spi/esp_spi.h
+@@ -17,11 +17,11 @@
+ #include "esp_api.h"
+ 
+ #ifndef HANDSHAKE_PIN
+-#define HANDSHAKE_PIN 22
++#define HANDSHAKE_PIN 513
+ #endif
+ 
+ #ifndef SPI_DATA_READY_PIN
+-#define SPI_DATA_READY_PIN 27
++#define SPI_DATA_READY_PIN 514
+ #endif
+ 
+ #ifndef RESETPIN
